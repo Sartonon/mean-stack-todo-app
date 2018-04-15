@@ -10,6 +10,7 @@ var port = 4000;
 app.set('view engine', 'ejs');
 
 app.use('/', express.static(__dirname + '/public/src'));
+app.use('/node_modules', express.static(__dirname + '/public/node_modules'));
 
 mongoose.connect(config.getDbConnectionString());
 setupController(app);
