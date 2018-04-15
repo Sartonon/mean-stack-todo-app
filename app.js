@@ -5,7 +5,7 @@ var config = require('./config');
 var setupController = require('./controllers/setupController');
 var apiController = require('./controllers/apiController');
 
-var port = process.env.PORT || 3000;
+var port = 4000;
 
 app.set('view engine', 'ejs');
 
