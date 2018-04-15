@@ -5,7 +5,7 @@
   "server": {
     "baseDir": "src",
     "routes": {
-      "/node_modules": "node_modules"
+      "/node_modules": "apps/mean-app/node_modules"
     },
     "middleware": {
       "0": null
